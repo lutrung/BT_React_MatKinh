@@ -62,7 +62,7 @@ export default class BaiTapMatKinh extends Component {
                   left: "50%",
                   transform: "translateX(-50%)",
                 }}
-                width={"200"}
+                width={"55%"}
               />
               <div
                 className="text-left"
@@ -72,12 +72,12 @@ export default class BaiTapMatKinh extends Component {
                   left: 0,
                   backgroundColor: "rgba(255, 68, 0, 0.416)",
                   width: "100%",
-                  padding: "15px",
+                  padding: "5px",
                 }}
               >
-                <h1 className="text-primary">
+                <h3 className="text-primary">
                   {this.state.chiTietGlasses.name}
-                </h1>
+                </h3>
                 <p className="text-light">{this.state.chiTietGlasses.desc}</p>
               </div>
             </div>
