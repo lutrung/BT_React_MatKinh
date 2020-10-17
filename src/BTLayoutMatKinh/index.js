@@ -30,7 +30,6 @@ export default class BaiTapMatKinh extends Component {
   render() {
     return (
       <div
-        className="d-flex align-items-center justify-content-center"
         style={{
           backgroundImage: "url(./img/background.jpg)",
           width: "100%",
@@ -42,6 +41,10 @@ export default class BaiTapMatKinh extends Component {
           backgroundPosition: "center",
         }}
       >
+        <div className="mb-5" style={{backgroundColor: 'rgba(0, 0, 0, 0.5)', padding:20}}>
+          <span className="display-4 text-light">TRY CLASSES APP ONLINE</span>
+        </div>
+        <div className="d-flex align-items-center justify-content-center">
         <div className="w-75">
           <div className="model d-flex justify-content-around">
             <div
@@ -62,7 +65,7 @@ export default class BaiTapMatKinh extends Component {
                   left: "50%",
                   transform: "translateX(-50%)",
                 }}
-                width={"200"}
+                width={"55%"}
               />
               <div
                 className="text-left"
@@ -90,6 +93,7 @@ export default class BaiTapMatKinh extends Component {
             </div>
           </div>
           {this.renderDanhSachSanPham()}
+        </div>
         </div>
       </div>
     );
