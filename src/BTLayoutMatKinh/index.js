@@ -8,7 +8,7 @@ export default class BaiTapMatKinh extends Component {
       id: 1,
       price: 30,
       name: "GUCCI G8850U",
-      url: "./img/v1.png",
+      url: "./img/MatKinh/v1.png",
       desc:
         "Light pink square lenses define these sunglasses, ending with amother of pearl effect tip. ",
     },
@@ -31,7 +31,7 @@ export default class BaiTapMatKinh extends Component {
     return (
       <div
         style={{
-          backgroundImage: "url(./img/background.jpg)",
+          backgroundImage: "url(./img/MatKinh/background.jpg)",
           width: "100%",
           height: "100%",
           top: 0,
@@ -52,7 +52,7 @@ export default class BaiTapMatKinh extends Component {
               style={{ width: "25%", height: "25%", position: "relative" }}
             >
               <img
-                src="./img/model.jpg"
+                src="./img/MatKinh/model.jpg"
                 style={{ width: "100%", height: "100%" }}
                 alt="hinh"
               />
@@ -86,7 +86,7 @@ export default class BaiTapMatKinh extends Component {
             </div>
             <div style={{ width: "25%", height: "25%" }}>
               <img
-                src="./img/model.jpg"
+                src="./img/MatKinh/model.jpg"
                 style={{ width: "100%", height: "100%" }}
                 alt="hinh"
               />
